@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 10%;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+body {
+    background-color: gray;
+}
+
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navLink li {
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.tienda {
+    background-color: blueviolet;
+    border-radius: 50px;
+    padding: 9px 25px;
+}
+
+.whatsApp {
+    width: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.instagram {
+    width: 50px;
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+}
+
+footer {
+    background-color: black;
+    bottom: 0px;
+    padding: 50px 250px;
+    text-align: center;
+    color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+    justify-items: center; 
+    align-items: center; 
+    height: 100%;
+    padding: 20px;
+}
+
+.image-grid img {
+    width: 100%; 
+    height: auto; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+}
+
+
+.principal {
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+}
+
+.cajaUno {
+    margin: 20px 20px 20px 20px;
+    border: 5px black solid;
+
+}
+
+.cajaDos {
+    margin: 20px 20px 20px 50px;
+    border: 5px black solid;
+
+}
+
+.cajaTres {
+    margin: 20px 20px 20px 50px;
+    border: 5px black solid;
+    ;
+}
+
+.cajaCuatro {
+    margin: 20px 20px 20px 50px;
+    border: 5px black solid;
+
+}
+
+.videoPresentacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: gray;
+
+}
+
+video {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+
+#centrado {
+    text-align: center;
+    margin: 20px ;
+    color: yellow;
+}
+
+
+.registro-auto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+form {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.stock {
+    font-weight: bold;
+    color: #008000; 
+}
+
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.carousel-inner{
+    border: none;
+    padding: 90px 100px;
+    border-radius: 5px;
+    cursor: pointer;
+}
