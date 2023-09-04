@@ -10,7 +10,6 @@ header {
     background-color: black;
     padding: 10px 10%;
     align-items: center;
-    position: sticky;
     top: 0;
 }
 
@@ -40,6 +39,7 @@ a {
 .navLink li {
     display: inline-block;
     padding: 0px 20px;
+    
 
 }
 
@@ -69,6 +69,7 @@ footer {
     padding: 50px 250px;
     text-align: center;
     color: aliceblue;
+    
 }
 
 h1 {
@@ -225,9 +226,3 @@ h3 {
     margin-bottom: 5px;
 }
 
-.carousel-inner{
-    border: none;
-    padding: 90px 100px;
-    border-radius: 5px;
-    cursor: pointer;
-}
