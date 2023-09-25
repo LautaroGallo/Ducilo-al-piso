@@ -1,73 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="shortcut icon" href="../img/logo.png" type="Logo ducilo">
-    <link rel="stylesheet" href="../css/style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suspencion Argentina</title>
+  <link rel="shortcut icon" href="../img/logo.png" type="Logo ducilo">
+  <link rel="stylesheet" href="../css/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suspencion Argentina</title>
 </head>
+
 <body>
-    <header>
-        <img class="logo" src="../img/logo.png" alt="Logo">
-    
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">Inicio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item ">
-                  <a class="nav-link active " aria-current="page" href="./kids.html">kids</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="./eventos.html">Eventos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="./tienda.html">Tienda</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="./registro.html">Registro</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-    
-      </header>
+  <header>
+    <img class="logo" src="../img/logo.png" alt="Logo">
 
-      <main>
-        <h1 class="text-center mt-3">Registro para proximo evento</h1>
-        <div>
-          <section class="registro-auto">
-          <div class="formulario">
-              <label for="nombre">Nombre:</label>
-              <input type="text" id="nombre" name="nombre" required>
-    
-              <label for="patente">Patente</label>
-              <input type="text" id="patente" name="patente" required>
-    
-              <label for="correo">Correo Electrónico:</label>
-              <input type="email" id="correo" name="correo" required>
-    
-              <label for="contrasena">Contraseña:</label>
-              <input type="password" id="contrasena" name="contrasena" required>
-    
-              <label for="confirmar-contrasena">Confirmar Contraseña:</label>
-              <input type="password" id="confirmar-contrasena" name="confirmar-contrasena" required>
-    
-              <input type="submit" value="Registrarse">
-          </div class="formulario">
-          </section>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link active " aria-current="page" href="./kids.html">Kids</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./eventos.html">Eventos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./tienda.html">Tienda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./registro.html">Registro</a>
+            </li>
+          </ul>
         </div>
-      </main>
+      </div>
+    </nav>
 
-        <!-- pie de pagina -->
+  </header>
+
+  <main>
+    <h1 class="text-center mt-3">Registro para próximo evento</h1>
+    <div class="container">
+      <section class="registro-auto">
+        <div class="formulario">
+          <form>
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre:</label>
+              <input type="text" class="form-control" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="patente" class="form-label">Patente:</label>
+              <input type="text" class="form-control" id="patente" name="patente" required>
+            </div>
+            <div class="mb-3">
+              <label for="marca" class="form-label">Marca del auto</label>
+              <select class="form-select" id="tipo-auto" name="tipo-auto" required>
+                <option value="" disabled selected>Seleccione Marca</option>
+                <option value="sedan">Renault</option>
+                <option value="SUV">Chevrolet</option>
+                <option value="deportivo">Fiat</option>
+                <option value="camioneta">Ford</option>
+                <option value="camioneta">Nissan</option>
+                <option value="camioneta">Volswagen</option>
+                <option value="camioneta">Honda</option>
+                <option value="camioneta">Mitsubishi</option>
+                <option value="camioneta">Toyota</option>
+                <option value="camioneta">Suzuki</option>
+                <option value="camioneta">Citroen</option>
+                <option value="camioneta">Peugeot</option>
+                <option value="camioneta">Audi</option>
+                <option value="camioneta">Mercedes Benz</option>
+                <option value="camioneta">Bmw</option>
+                <option value="camioneta">Mazda</option>
+                <option value="camioneta">Otro</option>
+                <!-- Agrega más opciones según sea necesario -->
+              </select>
+            </div>
+            
+            <div class="mb-3">
+              <label for="tipo-estilo" class="form-label">Estilo del auto:</label>
+              <select class="form-select" id="tipo-auto" name="tipo-auto" required>
+                <option value="" disabled selected>Seleccione su estilo</option>
+                <option value="sedan">Brasil</option>
+                <option value="SUV">Europa</option>
+                <option value="deportivo">Japon</option>
+                <option value="camioneta">Hot rod</option>
+              </select>
+            </div>
+            
+            <div class="mb-3">
+              <label for="correo" class="form-label">Correo Electrónico:</label>
+              <input type="email" class="form-control" id="correo" name="correo" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="contrasena" class="form-label">Contraseña:</label>
+              <input type="password" class="form-control" id="contrasena" name="contrasena" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="confirmar-contrasena" class="form-label">Confirmar Contraseña:</label>
+              <input type="password" class="form-control" id="confirmar-contrasena" name="confirmar-contrasena"
+                required>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Registrarse</button>
+          </form>
+        </div>
+      </section>
+    </div>
+    </section>
+  </main>
+
+  </main>
+
+  <!-- pie de pagina -->
   <footer class="bg-dark text-white">
     <div class="container-fluid">
       <div class="row">
@@ -89,8 +142,9 @@
   </footer>
 
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-      crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

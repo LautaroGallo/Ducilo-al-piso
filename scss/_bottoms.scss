@@ -1,0 +1,19 @@
+label{
+    input{
+        display: block;
+        margin-bottom: 20px;
+
+    }
+}
+
+input[type="submit"]{
+    background-color: $bottomColor;
+    color: $white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover{
+        background-color: #45a049;
+    }
+}

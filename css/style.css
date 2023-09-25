@@ -9,7 +9,7 @@ header {
     justify-content: space-between;
     background-color: black;
     padding: 10px 10%;
-    align-items: center; 
+    align-items: center;
     top: 0;
 }
 
@@ -62,7 +62,7 @@ footer {
     bottom: 0px;
     text-align: center;
     color: aliceblue;
-    
+
 }
 
 h1 {
@@ -72,17 +72,17 @@ h1 {
 .image-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px; 
-    justify-items: center; 
-    align-items: center; 
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
     height: 100%;
     padding: 20px;
 }
 
 .image-grid img {
-    width: 100%; 
-    height: auto; 
-    border: 1px solid #ccc; 
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
     border-radius: 5px;
 }
 
@@ -95,29 +95,6 @@ h1 {
 
 }
 
-.cajaUno {
-    margin: 20px 20px 20px 20px;
-    border: 5px black solid;
-
-}
-
-.cajaDos {
-    margin: 20px 20px 20px 50px;
-    border: 5px black solid;
-
-}
-
-.cajaTres {
-    margin: 20px 20px 20px 50px;
-    border: 5px black solid;
-    ;
-}
-
-.cajaCuatro {
-    margin: 20px 20px 20px 50px;
-    border: 5px black solid;
-
-}
 
 .videoPresentacion {
     display: flex;
@@ -142,7 +119,7 @@ video {
 
 #centrado {
     text-align: center;
-    margin: 20px ;
+    margin: 20px;
     color: yellow;
 }
 
@@ -152,7 +129,7 @@ video {
     justify-content: center;
     align-items: center;
     height: 100%;
-    
+
 
 }
 
@@ -170,7 +147,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-label, input {
+label,input {
     display: block;
     margin-bottom: 10px;
 }
@@ -192,15 +169,16 @@ input[type="submit"]:hover {
 
 .product-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 20px; 
-    padding: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 25px;
+    
 }
 
 .product {
     border: 1px solid #ccc;
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -212,7 +190,7 @@ input[type="submit"]:hover {
 
 .stock {
     font-weight: bold;
-    color: #008000; 
+    color: #008000;
 }
 
 
@@ -224,3 +202,25 @@ h3 {
 .plantillas {
     width: 100%;
 }
+
+.animacion {
+   
+    /* padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    text-align: center; */
+    transition: transform 0.3s; /* Duración de la animación de transformación */
+  }
+  
+  /* Animación de zoom al pasar el puntero por encima */
+  .animacion:hover {
+    transform: scale(1.1); /* Escala al 110% del tamaño original */
+    cursor: pointer; /* Cambia el cursor al puntero al pasar por encima */
+  }
+
+  .tarjeta{
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
