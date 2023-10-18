@@ -14,8 +14,8 @@
 <body>
   <header>
     <a href="../index.html">
-    <img class="logo" src="../img/logo.png" alt="Logo de ducilo al piso">
-  </a>
+      <img class="logo" src="../img/logo.png" alt="Logo de ducilo al piso">
+    </a>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="../index.html">Inicio</a>
@@ -46,77 +46,54 @@
 
   <main>
     <h1 class="text-center mt-3">Registro para próximo evento</h1>
-    <div class="container">
-      <section class="registro-auto">
-        <div class="formulario">
-          <form>
-            <div class="mb-3">
-              <label for="nombre" class="form-label">Nombre:</label>
-              <input type="text" class="form-control" id="nombre" name="nombre" required>
-            </div>
+    <!-- registro -->
+    <div class="overlay">
 
-            <div class="mb-3">
-              <label for="patente" class="form-label">Patente:</label>
-              <input type="text" class="form-control" id="patente" name="patente" required>
-            </div>
-            <div class="mb-3">
-              <label for="marca" class="form-label">Marca del auto</label>
-              <select class="form-select" id="tipo-auto" name="tipo-auto" required>
-                <option value="" disabled selected>Seleccione Marca</option>
-                <option value="sedan">Renault</option>
-                <option value="SUV">Chevrolet</option>
-                <option value="deportivo">Fiat</option>
-                <option value="camioneta">Ford</option>
-                <option value="camioneta">Nissan</option>
-                <option value="camioneta">Volswagen</option>
-                <option value="camioneta">Honda</option>
-                <option value="camioneta">Mitsubishi</option>
-                <option value="camioneta">Toyota</option>
-                <option value="camioneta">Suzuki</option>
-                <option value="camioneta">Citroen</option>
-                <option value="camioneta">Peugeot</option>
-                <option value="camioneta">Audi</option>
-                <option value="camioneta">Mercedes Benz</option>
-                <option value="camioneta">Bmw</option>
-                <option value="camioneta">Mazda</option>
-                <option value="camioneta">Otro</option>
-                <!-- Agrega más opciones según sea necesario -->
-              </select>
-            </div>
-            
-            <div class="mb-3">
-              <label for="tipo-estilo" class="form-label">Estilo del auto:</label>
-              <select class="form-select" id="tipo-auto" name="tipo-auto" required>
-                <option value="" disabled selected>Seleccione su estilo</option>
-                <option value="sedan">Brasil</option>
-                <option value="SUV">Europa</option>
-                <option value="deportivo">Japon</option>
-                <option value="camioneta">Hot rod</option>
-              </select>
-            </div>
-            
-            <div class="mb-3">
-              <label for="correo" class="form-label">Correo Electrónico:</label>
-              <input type="email" class="form-control" id="correo" name="correo" required>
-            </div>
+      <form>
 
-            <div class="mb-3">
-              <label for="contrasena" class="form-label">Contraseña:</label>
-              <input type="password" class="form-control" id="contrasena" name="contrasena" required>
-            </div>
+        <div class="con">
 
-            <div class="mb-3">
-              <label for="confirmar-contrasena" class="form-label">Confirmar Contraseña:</label>
-              <input type="password" class="form-control" id="confirmar-contrasena" name="confirmar-contrasena"
-                required>
-            </div>
-
-            <button type="submit" class="btn btn-primary">Registrarse</button>
-          </form>
+          <div class="head-form">
+            <h2>Registro</h2>
+            <p>Registrate aca para resivir notificaciones de proximos eventos</p>
+          </div>
+          <br>
+          <div class="field-set">
+            <input class="form-input" id="txt-input" type="text" placeholder="@Nombre de usuario" required>
+            <br>
+            <input class="form-input" type="password" placeholder="Contraseña" id="pwd" name="password" required>
+            <br>
+            <button class="log-in confirm">Continuar</button>
+          </div>
+          <div>
+            <button class="btn submits contraseña">Crea una Contraseña</button>
+            <button class="btn submits siguiente">Registrate</button>
+          </div>
         </div>
-      </section>
+      </form>
     </div>
     </section>
+
+    <!-- Preguntas frecuentes -->
+    <div class="faq-container">
+      <div class="faq-box">
+        <h3>Se paga entrada?</h3>
+        <p>Todo depende del evento, normalmente en la seccion eventos debajo indica si la entrada se cobra, en el caso
+          de que haya que comprar una entrada se aclara si es por persona o por vehiculo.</p>
+      </div>
+      <div class="faq-box">
+        <h3>Se puede llevar comida?</h3>
+        <p>Si, en algunos campings no se puede encender fuego en el pasto por una cuestion de cuidados, normalmente hay
+          foods trucks o parillas, bebidas alcoholicas estan PROHIBIDAS.</p>
+      </div>
+      <div class="faq-box">
+        <h3>Pueden entrar menores al evento?</h3>
+        <p>Siempre que este acompañado de un adulto si.</p>
+      </div>
+      <!-- Agrega más preguntas frecuentes según sea necesario -->
+    </div>
+
+
   </main>
 
   </main>

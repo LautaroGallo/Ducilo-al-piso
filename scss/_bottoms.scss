@@ -1,19 +1,19 @@
-label{
-    input{
-        display: block;
-        margin-bottom: 20px;
 
-    }
-}
 
-input[type="submit"]{
-    background-color: $bottomColor;
-    color: $white;
-    border: none;
-    padding: 10px 20px;
+
+.confirm {
+    display: inline-block;
+    color: #252537;
+    width: 280px;
+    height: 50px;
+    padding: 0 20px;
+    background: #fff;
     border-radius: 5px;
+    outline: none;
+    border: none;
     cursor: pointer;
-    &:hover{
-        background-color: #45a049;
-    }
-}
+    text-align: center;
+    transition: all 0.2s linear;
+    margin: 7% auto;
+    letter-spacing: 0.05em;
+  }
